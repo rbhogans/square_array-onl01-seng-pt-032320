@@ -6,3 +6,7 @@ end
 
   # your code here
 end
+def square_array(numbers)
+  numbers = [1,2,3]
+  array.reduce([]) { |a, n| a << n * n }
+end
