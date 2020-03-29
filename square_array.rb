@@ -6,7 +6,11 @@ end
 
   # your code here
 end
-def square_array(numbers)
-  numbers = [1,2,3]
-  array.reduce([]) { |a, n| a << n * n }
+def square_array(array)
+  squared_array = [1,2,3]
+  array.each do |num|
+    square = num ** 2
+    squared_array << square
+  end
+  squared_array
 end
