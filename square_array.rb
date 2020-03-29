@@ -14,7 +14,3 @@ def square_array(array)
   end
   squared_array
 end
-numbers = [1,2,3]
- 
-def square_array(numbers)
-end
